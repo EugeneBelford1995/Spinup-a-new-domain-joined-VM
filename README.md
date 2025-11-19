@@ -10,7 +10,7 @@ Put the files in this repository in C:\VM_Stuff_Share\New_VM.
 
 Do ' . . C:\VM_Stuff_Share\New_VM\New-VM_Test_Domain.ps1' to import the function.
 
-Run it via 'New-TestVM -NewVMName "<name>" -NewVMIP "<IP>".
+Run it via 'New-TestVM -NewVMName "new VM's name" -NewVMIP "4th octet of the new VM's IP".
 
 For example:
 New-TestVM -NewVMName "TestFallback" -NewVMIP "106"
